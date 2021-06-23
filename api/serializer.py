@@ -10,7 +10,7 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class CodesSerializer(serializers.ModelSerializer):
-    user = UserSerializer(read_only=True)
+    # user = UserSerializer(read_only=True)
 
     class Meta:
         model = Codes
@@ -20,7 +20,7 @@ class CodesSerializer(serializers.ModelSerializer):
             'code',
             'code_name',
             'sort_seq',
-            'use_un',
+            'use_yn',
             'remark',
         )
         read_only_fields = ('code_type', 'code')
