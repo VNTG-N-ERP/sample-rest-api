@@ -8,8 +8,8 @@ SHE 사전 개발용 RESTful API 서비스
 python 가상환경 이름 -> `venv`
 
 ```bash
-$ python3 -m venv devenv
-$ source ./devenv/bin/activate
+$ python3 -m venv venv
+$ source ./venv/bin/activate
 ```
 
 package 복원 (가상환경에서 실행)
