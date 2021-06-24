@@ -46,3 +46,7 @@ POSTGRES_PASSWORD=postgresql_user_password
 POSTGRES_HOST=postgresql_ip_address
 POSTGRES_PORT=5432
 ```
+
+## drf-yasg를 이용한 swagger 문서 자동화
+
+* 참고 - https://velog.io/@lu_at_log/drf-yasg-and-swagger
