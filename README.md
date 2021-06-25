@@ -66,3 +66,15 @@ POSTGRES_PORT=5432
 ## Docker 이미지 생성 및 배포
 
 ### ssh
+
+### Docker 이미지 생성
+
+```
+$ docker build -t sample-rest-api .
+```
+
+### Container 실행
+
+```
+$ docker run -d --name rest-api -p 9999:8000 sample-rest-api:1
+```
