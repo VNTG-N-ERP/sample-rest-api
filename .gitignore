@@ -170,3 +170,4 @@ __pycache__
 # environ 설정 저장 파일 -> Git으로 공유하면 안되는 파일
 # .env
 settings.ini
+id_rsa*

@@ -39,7 +39,7 @@ package 목록 저장 (가상환경에서 실행)
 
 ```
 [settings]
-SECRET_KEY=django-insecure-y(+lt2746#2g!c469q0vu377ipc3g4rq190u$e*kn_(fw6$9si
+SECRET_KEY=django-secret_key
 POSTGRES_NAME=postgresql_db_name
 POSTGRES_USER=postgresql_user_name
 POSTGRES_PASSWORD=postgresql_user_password
@@ -47,6 +47,22 @@ POSTGRES_HOST=postgresql_ip_address
 POSTGRES_PORT=5432
 ```
 
-## drf-yasg를 이용한 swagger 문서 자동화
+## Swagger UI
+
+가상환경(venv)에서 어플리케이션 실행
+
+```bash
+(venv) $ python3 manage.py runserver
+```
+
+다음 url에 접속하여 swagger ui를 확인한다.
+
+> http://127.0.0.1:8000/swagger
+
+### drf-yasg를 이용한 swagger 문서 자동화
 
 * 참고 - https://velog.io/@lu_at_log/drf-yasg-and-swagger
+
+## Docker 이미지 생성 및 배포
+
+### ssh
